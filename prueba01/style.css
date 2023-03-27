@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+header{
+    background-color: brown;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Alkatra', cursive;
+}
+.contenedor{
+    background-color: blue;
+    height: 45rem;
+    display: flex;
+    font-size: 2rem;
+    font-family: 'Alkatra', cursive;
+}
+.contenedor__menu{
+    background-color: aquamarine;
+    width: 25%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.contenedor__contenido{
+    background-color: green;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
