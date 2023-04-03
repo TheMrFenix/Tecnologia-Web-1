@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.A{
+    background-color: #8f43ee;
+    display: flex;
+    flex-direction: column;
+}
+.A-P0{
+    background-image: url(paisaje.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 63vh;
+}
+.A-P0--B{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.A-P0--B_1{
+    background-image: radial-gradient(100% 100% at 100% 0, #fae6ca 0, #dacfbf 100%);
+    color: aliceblue;
+    /*border-radius: 28px;*/
+}
+.A-P0--B_2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color: white;
+}
+nav{
+    margin: 4px;
+}
+.box1{
+    color: #8126f0;
+}
+.Boton1{
+    color: #8126f0;
+    background-color: transparent;
+    border: 1px solid #8126f0;
+    border-radius: 3px;
+}
+.A-P1--B{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.A-P1--B_1{
+    display: flex;
+    justify-content: center;
+}
+.anonimo{
+    border-radius: 100%;
+}
+.A-P1--B_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.A-P1{
+    background-color: #1f2233;
+    height: 33vh;
+}
+.A-P2{
+    background-color: #25273a;
+    height: 33vh;
+}
