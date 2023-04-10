@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.C1, .C2, .C3, .C4, .C5, .C6{
+    width: 100%;
+    min-width: 15rem;
+    height: 15rem;
+}
+.C1{
+    background-color: aqua;
+}
+.C2{
+    background-color: grey;
+}
+.C3{
+    background-color: blueviolet;
+}
+.C4{
+    background-color: burlywood;
+}
+.C5{
+    background-color: turquoise;
+}
+.C6{
+    background-color: blue;
+}
+/* @media (min-width: 600px){
+    .C2, .C3{
+        width: 50%;
+    }
+    .C4{
+        height: 30rem;
+    }
+}
+@media (min-width: 800px){
+    .C1{
+        width: 40%;
+    }
+    .C2{
+        width: 60%;
+    }
+    .C3, .C4, .C5{
+        width: 33.33%;
+    }
+    .C6{
+        height: 30rem;
+    }
+} */
