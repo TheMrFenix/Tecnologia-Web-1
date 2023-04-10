@@ -29,6 +29,7 @@ body{
     background-image: radial-gradient(100% 100% at 100% 0, #fae6ca 0, #dacfbf 100%);
     color: aliceblue;
     /*border-radius: 28px;*/
+    display: inline-block 2px;
 }
 .A-P0--B_2{
     display: flex;
