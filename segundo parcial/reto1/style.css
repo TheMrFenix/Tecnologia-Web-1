@@ -1,0 +1,33 @@
+#perfil{
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+}
+.card-title{
+    color: red;
+    display: flex;
+    align-content: baseline;
+    justify-content: left;
+}
+.card-big-text{
+    display: flex;
+    align-content: baseline;
+    justify-content: left;
+}
+.card-text{
+    display: flex;
+    align-content: baseline;
+    justify-content: left;
+}
+.col-3{
+    height: 300px;
+    width: auto;
+}
+.text{
+    display: flex;
+    justify-content: left
+}
+.row{
+    display: flex;
+    justify-content: space-around
+}
