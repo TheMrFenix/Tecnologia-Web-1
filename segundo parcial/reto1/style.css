@@ -19,10 +19,6 @@
     align-content: baseline;
     justify-content: left;
 }
-.col-3{
-    height: 300px;
-    width: auto;
-}
 .text{
     display: flex;
     justify-content: left
